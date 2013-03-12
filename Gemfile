@@ -4,7 +4,7 @@ gem 'rails', '3.2.12'
 gem 'jquery-rails'
 
 group :production do
-	gem 'sqlite3'
+	gem 'pg'
 end 
 
 group :development, :test do
